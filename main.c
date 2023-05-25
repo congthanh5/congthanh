@@ -1,17 +1,17 @@
 
 #include <stdio.h>
-int main(){
-    int ary[10];
-    int i, total, high;
-    for (int i = 0; i < 10; ++i) {
-        scanf("%d", &ary[i]);
+void main(){
+    int num[5];
+    int i;
+    num[0] =10;
+    num[1] =70;
+    num[2] =60;
+    num[3]=40;
+    num[4]= 50;
+    for (int i = 0; i < 5; ++i) {
+        printf("\nnumber ai [%d] is %d",i,num[i]);
+
     }
-    high =ary[0];
-    for(i-1;1<10;i++)
-    {
-        if(ary[i] >high)
-            high=ary[i];
-    }
-    printf("%d",high);
+
     return 0;
 }
